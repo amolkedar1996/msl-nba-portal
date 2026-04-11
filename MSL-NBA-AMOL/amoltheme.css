@@ -1,7 +1,7 @@
 /* 1. DEFINE YOUR DESIGN TOKENS */
 :root {
   /* Brand Colors */
-  --izo-primary: #1E40AF;       /* Deep Blue */
+  --izo-primary: #1d7eb9;       /* Deep Blue */
   --izo-secondary: #64748B;     /* Slate Gray */
   --izo-success: #10B981;       /* Emerald */
   --izo-danger: #EF4444;        /* Red */
@@ -23,7 +23,7 @@
 
 /* 3. BUTTONS */
 ._tooljet-Button button {
-  background-color: var(--izo-danger) !important;
+  background-color: var(--izo-primary) !important;
   border-radius: var(--izo-radius) !important;
   font-weight: 600 !important;
   transition: all 0.2s ease-in-out !important;
