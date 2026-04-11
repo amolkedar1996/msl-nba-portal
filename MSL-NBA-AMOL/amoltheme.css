@@ -23,7 +23,7 @@
 
 /* 3. BUTTONS */
 ._tooljet-Button button {
-  background-color: var(--izo-primary) !important;
+  background-color: var(--izo-danger) !important;
   border-radius: var(--izo-radius) !important;
   font-weight: 600 !important;
   transition: all 0.2s ease-in-out !important;
