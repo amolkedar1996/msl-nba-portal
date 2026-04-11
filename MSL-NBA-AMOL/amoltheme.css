@@ -1,0 +1,36 @@
+/* 1. DEFINE YOUR DESIGN TOKENS */
+:root {
+  /* Brand Colors */
+  --izo-primary: #1E40AF;       /* Deep Blue */
+  --izo-secondary: #64748B;     /* Slate Gray */
+  --izo-success: #10B981;       /* Emerald */
+  --izo-danger: #EF4444;        /* Red */
+  
+  /* Background & Surface */
+  --izo-bg-app: #F8FAF0;
+  --izo-bg-card: #FFFFFF;
+  --izo-border: #E2E8F0;
+  
+  /* Typography */
+  --izo-text-main: #0F172A;
+  --izo-text-muted: #475569;
+  
+  /* UI Elements */
+  --izo-radius: 8px;
+  --izo-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+
+/* 3. BUTTONS */
+._tooljet-Button button {
+  background-color: var(--izo-primary) !important;
+  border-radius: var(--izo-radius) !important;
+  font-weight: 600 !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+._tooljet-Button button:hover {
+  filter: brightness(1.1) !important;
+  box-shadow: var(--izo-shadow) !important;
+}
+}
